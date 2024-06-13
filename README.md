@@ -1,8 +1,8 @@
 ## Seja Bem-Vindo! 😁
 
-• Estou estudando por meio da plataforma Alura 
-• Desenvolvendo projetos em linguagem JavaScript
-• Faço desse espaço como acervo de meus projetos para melhor organização 
+- Estou estudando por meio da plataforma Alura 
+- Desenvolvendo projetos em linguagem JavaScript
+- Faço desse espaço como acervo de meus projetos para melhor organização 
 
 
 # Você pode entrar em contato comigo! 📬
