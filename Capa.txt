@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+a:hover {
+    color: rgb(255, 0, 0); /* Cor do link quando o mouse está sobre ele */
+}
+a {
+    color: rgb(94, 66, 30);
+}
+a:active {
+    color: rgb(255, 0, 0); /* Cor do link quando está sendo clicado */
+}
+        hr {
+            border: 0; 
+            height: 2px;
+            background-color: #000000;
+        }
+        body {
+            background-color: rgb(182, 154, 117);
+        }
+        #geral{
+        
+            background-color: burlywood;
+            border-radius: 10px;
+            margin: auto;
+            padding:3px 3px;
+            width: 55%;
+            height: 55%;
+            border: 3px solid rgb(75, 45, 25);
+        }
+        #htmlgeral{
+            color:rgb(77, 49, 13);
+            font-size: 80px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #trecho{
+            color: rgb(77, 49, 13);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align:center;
+            font-size: 21px;
+        }
+    #Texts{
+        background-color: burlywood;
+            border-radius: 10px;
+            margin: auto;
+            padding:3px 3px;
+            width: 55%;
+            height: 55%;
+            color: rgb(77, 49, 13);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align:center;
+            font-size: 35px;
+            font-weight: bold;
+            border: 3px solid rgb(75, 45, 25);
+    }
+    .imagem-container {
+            width: 300px; /* Define a largura da div */
+            height: 300px; /* Define a altura da div */
+            border: 2px solid #000; /* Adiciona uma borda ao redor da div */
+            display: flex; /* Alinha a imagem dentro da div */
+            align-items: center; /* Alinha a imagem verticalmente no centro */
+            justify-content: center; /* Alinha a imagem horizontalmente no centro */
+            background-color: #f0f0f0; /* Define uma cor de fundo para a div */
+            margin: auto;
+            margin-top: 5px;
+            margin-left: 23%;
+        }
+        .imagem-container img {
+            max-width: 100%; /* Garante que a imagem se ajuste ao tamanho da div */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        .Link{
+            display: flex; /* Define o contêiner como flexível */
+            justify-content: center; 
+            height: 300px; 
+            margin: auto;
+            margin-right: 32%;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .Link a {
+            display: inline-block; 
+        }
+    </style>
+    <title>Art & Biography</title>
+</head>
+<body>
+<div id="geral">
+    <p id="htmlgeral">Art & Biography</p>
+</div>
+<hr>
+<h1>
+<p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+</h1>
+</p>
+<div id="Texts">
+    <p id="Text">Selecione um artista:</p>
+</div>
+<div class="imagem-container">
+    <img src="file.jpg">
+</div>
+<div class="Link">
+    <a href="The Weeknd.html">Conheça The Weeknd</a>
+</div>
+</body>
+
+</html>
